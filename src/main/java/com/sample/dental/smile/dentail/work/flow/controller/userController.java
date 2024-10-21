@@ -240,7 +240,7 @@ public class userController {
 	@GetMapping("/verification/gate")
 	public ResponseEntity<?> verificationGate(@RequestParam String senderMobileNumber) {
 		Map<String, Object> response = new HashMap<>();
-		Twilio.init("AC18535942ef0006272df2bfe437d5a9cd", "ec789831f8bf8008b47e775cc16d8674");
+//		Twilio.init("AC18535942ef0006272df2bfe437d5a9cd", "ec789831f8bf8008b47e775cc16d8674");
 		String otp = generateOTP(6);
 		String messageContent = "Your OTP to verify your account is: " + otp;
 		try {
