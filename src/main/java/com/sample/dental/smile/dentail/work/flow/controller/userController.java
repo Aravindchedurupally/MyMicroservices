@@ -27,7 +27,6 @@ import com.sample.dental.smile.dentail.work.flow.entity.User;
 import com.sample.dental.smile.dentail.work.flow.exception.HandleCustomExceptionResponse;
 import com.sample.dental.smile.dentail.work.flow.password.dec.PasswordEncryptDecrypt;
 import com.sample.dental.smile.dentail.work.flow.repo.userRepository;
-import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 
